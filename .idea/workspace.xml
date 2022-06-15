@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1f76ed0-cbc0-4a08-b02e-3796e8086c9d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/checkstyle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/statistic/StatisticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/statistic/StatisticsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +43,17 @@
 }]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean test" />
       <command value="mvn clean verify" />
-      <command value="mvn clean compile" />
+      <command value="mvn spotbugs:help" />
       <command value=" mvn spotbugs:check" />
+      <command value="mvn checkstyle:checkstyle" />
+      <command value="mvn clean compile" />
+      <command value="mvn clean" />
+      <command value="mvn clean test" />
+      <command value="mvn spotbugs:check" />
+      <command value="mvn site" />
+      <command value="mvn checkstyle:help" />
+      <command value="mvn checkstyle:check" />
     </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
