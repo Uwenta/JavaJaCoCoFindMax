@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1f76ed0-cbc0-4a08-b02e-3796e8086c9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/checkstyle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -48,11 +47,11 @@
       <command value=" mvn spotbugs:check" />
       <command value="mvn checkstyle:checkstyle" />
       <command value="mvn clean compile" />
-      <command value="mvn clean" />
       <command value="mvn clean test" />
-      <command value="mvn spotbugs:check" />
       <command value="mvn site" />
       <command value="mvn checkstyle:help" />
+      <command value="mvn clean" />
+      <command value="mvn spotbugs:check" />
       <command value="mvn checkstyle:check" />
     </option>
   </component>
